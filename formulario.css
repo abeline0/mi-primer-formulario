@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+body{
+   
+
+    font-family: "Nunito Sans", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(166, 141, 206);
+    
+}
+
+#div1{
+    color: rgb(240, 238, 235);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.datos{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 350px;
+    border:none ;
+    border-radius: 8px;
+    padding: 5px;
+    height: 19px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.buttonAceptar{
+    border: 2px rgb(245, 231, 231);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#disney{
+    opacity: 0.5;
+    border-radius: 30px;
+    
+
+}
+
+#formulario{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4.3% ;
+    margin-top: 110px;
+}
+
+img{
+    width: 30%;
+   float:right;
+    
+}
+
+.form{
+    padding-top: 0px;
+    width: 400px;
+    background-color: purple;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+
+}
